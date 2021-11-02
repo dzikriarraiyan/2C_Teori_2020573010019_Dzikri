@@ -10,10 +10,10 @@
     <title>SIPBAR</title>
 
     <style>
-        /* body {
+        body {
             display: flex;
             flex-direction: column;
-        } */
+        }
 
         .bd-placeholder-img {
             font-size: 1.125rem;
@@ -93,7 +93,7 @@
         </symbol>
     </svg>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="flex: 1;">
         <div class="container-fluid">
             <a class="navbar-brand" href="#">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -135,8 +135,8 @@
     <!-- Akhir Header -->
 
     <!-- Awal Sidebars -->
-    <main>
-        <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px;">
+    <main style="flex: 5;">
+        <div class="d-flex flex-column flex-shrink-0 p-3 bg-light" style="width: 280px; flex: 1">
             <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-dark text-decoration-none">
                 <svg class="bi me-2" width="40" height="32">
                     <use xlink:href="#bootstrap" />
@@ -202,6 +202,9 @@
                     <li><a class="dropdown-item" href="#">Sign out</a></li>
                 </ul>
             </div>
+        </div>
+        <div id="utama" class="d-flex flex-row justify-content-center align-items-center" style="flex: 4;">
+            <h1 style="color:cornflowerblue; ">DZIKRI ARRAIYAN</h1>
         </div>
     </main>
 </body>
